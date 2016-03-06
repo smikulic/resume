@@ -1,0 +1,134 @@
+basics:
+  name: 'Leih Mikulic'
+  label: 'Frontend Developer'
+  picture: ""
+  email: sinisa.mikulic@gmail.com
+  phone: '+49 176 816 20991'
+  website: 'http://sinisamikulic.com'
+  summary: 'My name is Sinisa Mikulic and I come from Zagreb, Croatia. My experience as a Rails frontend developer has brought me to Berlin, where I started with more professional development as a frontend web developer, with main focus on responsive layouts (HTML/SCSS), JavaScript (ES6), React.js and Node.js frameworks, along with Ruby on Rails as a backend.'
+  location:
+    address: 'Martin-Opitz-Str. 5'
+    postalCode: '13357'
+    city: Berlin
+    countryCode: DE
+    region: Germany
+  profiles:
+    -
+      network: Github
+      username: smikulic
+      url: 'https://github.com/smikulic'
+    -
+      network: Twitter
+      username: sinisamikulic
+      url: 'https://twitter.com/sinisamikulic'
+    -
+      network: Linkedin
+      username: sinisamikulic
+      url: linkedin.com/in/sinisamikulic
+work:
+  -
+    company: 'Moviepilot, Inc.'
+    position: Developer
+    website: 'http://moviepilot.com'
+    startDate: '2015, November'
+    endDate: ""
+    summary: 'Community of 30 million entertainment fans. A place for fans to talk about movies!'
+    highlights:
+      - 'Maintaining user experience for moviepilot.com and it''s authoring platform using Haml/Coffeescript/Ruby on Rails.'
+      - 'Managing and optimizing release of experimental Accelerated Mobile Pages for SEO and Facebook Instant Articles.'
+  -
+    company: 'Searchmetrics GmbH'
+    position: 'Frontend Developer'
+    website: 'http://www.searchmetrics.com/'
+    startDate: '2015, March'
+    endDate: '2015, October'
+    summary: 'Searchmetrics delivers enterprise SEO and content marketing analysis, recommendations, forecasting and reporting for companies that want potential customers to find them faster.'
+    highlights:
+      - 'Developed user interface with React.js framework for MVP product by using Flux architecture and the latest JavaScript ES6.'
+      - 'Programmed RESTful web APIs in Node.js.'
+      - 'Wrote functional tests with Jest and Jasmine.'
+  -
+    company: 'Outfittery GmbH'
+    position: 'Junior Frontend Developer'
+    website: 'https://www.outfittery.de/'
+    startDate: '2015, March'
+    endDate: '2014, March'
+    summary: 'Custom outfits put together by your personal style experts.'
+    highlights:
+      - 'Implemented new features by using modular structure in JavaScript.'
+      - 'Ensured compatibility across browsers and devices.'
+      - 'Was responsible for maintenance and deployment of CMS.'
+      - 'Lead and mentored front­end team and reviewed code to ensure quality and reusability.'
+  -
+    company: 'Bib + Tuck, Inc.'
+    position: 'Rails/Frontend Developer'
+    website: 'https://www.bibandtuck.com/'
+    startDate: '2014, March'
+    endDate: '2013, November'
+    summary: 'A curated online community of shoppable personal closets.'
+    highlights:
+      - 'Developed new features with responsive design for the startup application https://www.bibandtuck.com/ based on Ruby on Rails.'
+      - 'Optimized existing code written in Haml, SCSS and jQuery.'
+  -
+    company: Movieo.me
+    position: 'Rails/Front­end developer / UX designer / Product Owner'
+    website: 'http://www.movieo.me'
+    startDate: '2012, February'
+    endDate: ""
+    summary: 'A place for discovering movies'
+    highlights:
+      - 'Developed and wireframed UX and user interface concepts.'
+      - 'Programmed layouts in Ruby on Rails and styled them in HTML and CSS.'
+      - 'Was responsible for cross browser and cross device testing.'
+      - 'Analysed use cases and SEO reports(GA and other tracking tools).'
+      - 'Product and feature planning.'
+education:
+  -
+    institution: 'University of Zagreb'
+    area: 'Information Technology'
+    studyType: Bachelor
+    startDate: '2013, September'
+    endDate: '2007, September'
+  -
+    institution: 'Technical School Ruđer Bošković'
+    area: 'Technician for Computing Science'
+    startDate: '2007, July'
+    endDate: '2003, September'
+publications:
+  -
+    name: 'Video compression for 3d media'
+    publisher: Hooli
+    releaseDate: '2014-10-01'
+    website: 'http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)'
+    summary: 'Innovative middle-out compression algorithm that changes the way we store data.'
+skills:
+  -
+    name: 'Frontend Development'
+    keywords:
+      - Javascript/ES6/Coffeescript
+      - React.js/Flux/Redux
+      - 'HTML5 (Haml/Slim)'
+      - 'CSS3 (SCSS/Less), Bootstrap'
+      - 'SMACSS/BEM Structure'
+  -
+    name: 'Backend Development'
+    keywords:
+      - 'Ruby on Rails'
+      - Node.js
+languages:
+  -
+    language: English
+    fluency: Fluent
+  -
+    language: Croatian
+    fluency: 'Native speaker'
+interests:
+  -
+    name: Wildlife
+    keywords:
+      - Ferrets
+      - Unicorns
+references:
+  -
+    name: 'Erlich Bachman'
+    reference: 'It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.'

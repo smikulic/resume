@@ -1,0 +1,189 @@
+{
+  "name": "Leih Mikulic",
+  "info": {},
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "location": {
+    "city": "Berlin",
+    "region": "Germany",
+    "country": "DE",
+    "code": "13357",
+    "address": "Martin-Opitz-Str. 5"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Developer",
+        "employer": "Moviepilot, Inc.",
+        "summary": "Community of 30 million entertainment fans. A place for fans to talk about movies!",
+        "current": true,
+        "start": "2015, November",
+        "end": "",
+        "url": "http://moviepilot.com",
+        "keywords": [],
+        "highlights": [
+          "Maintaining user experience for moviepilot.com and it's authoring platform using Haml/Coffeescript/Ruby on Rails.",
+          "Managing and optimizing release of experimental Accelerated Mobile Pages for SEO and Facebook Instant Articles."
+        ]
+      },
+      {
+        "position": "Frontend Developer",
+        "employer": "Searchmetrics GmbH",
+        "summary": "Searchmetrics delivers enterprise SEO and content marketing analysis, recommendations, forecasting and reporting for companies that want potential customers to find them faster.",
+        "start": "2015, March",
+        "end": "2015, October",
+        "url": "http://www.searchmetrics.com/",
+        "keywords": [],
+        "highlights": [
+          "Developed user interface with React.js framework for MVP product by using Flux architecture and the latest JavaScript ES6.",
+          "Programmed RESTful web APIs in Node.js.",
+          "Wrote functional tests with Jest and Jasmine."
+        ]
+      },
+      {
+        "position": "Junior Frontend Developer",
+        "employer": "Outfittery GmbH",
+        "summary": "Custom outfits put together by your personal style experts.",
+        "start": "2015, March",
+        "end": "2014, March",
+        "url": "https://www.outfittery.de/",
+        "keywords": [],
+        "highlights": [
+          "Implemented new features by using modular structure in JavaScript.",
+          "Ensured compatibility across browsers and devices.",
+          "Was responsible for maintenance and deployment of CMS.",
+          "Lead and mentored front­end team and reviewed code to ensure quality and reusability."
+        ]
+      },
+      {
+        "position": "Rails/Frontend Developer",
+        "employer": "Bib + Tuck, Inc.",
+        "summary": "A curated online community of shoppable personal closets.",
+        "start": "2014, March",
+        "end": "2013, November",
+        "url": "https://www.bibandtuck.com/",
+        "keywords": [],
+        "highlights": [
+          "Developed new features with responsive design for the startup application https://www.bibandtuck.com/ based on Ruby on Rails.",
+          "Optimized existing code written in Haml, SCSS and jQuery."
+        ]
+      },
+      {
+        "position": "Rails/Front­end developer / UX designer / Product Owner",
+        "employer": "Movieo.me",
+        "summary": "A place for discovering movies",
+        "current": true,
+        "start": "2012, February",
+        "end": "",
+        "url": "http://www.movieo.me",
+        "keywords": [],
+        "highlights": [
+          "Developed and wireframed UX and user interface concepts.",
+          "Programmed layouts in Ruby on Rails and styled them in HTML and CSS.",
+          "Was responsible for cross browser and cross device testing.",
+          "Analysed use cases and SEO reports(GA and other tracking tools).",
+          "Product and feature planning."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "University of Zagreb",
+        "start": "2013, September",
+        "end": "2007, September",
+        "summary": "",
+        "area": "Information Technology",
+        "studyType": "Bachelor"
+      },
+      {
+        "institution": "Technical School Ruđer Bošković",
+        "start": "2007, July",
+        "end": "2003, September",
+        "summary": "",
+        "area": "Technician for Computing Science"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Frontend Development",
+        "skills": [
+          "Javascript/ES6/Coffeescript",
+          "React.js/Flux/Redux",
+          "HTML5 (Haml/Slim)",
+          "CSS3 (SCSS/Less), Bootstrap",
+          "SMACSS/BEM Structure"
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "skills": [
+          "Ruby on Rails",
+          "Node.js"
+        ]
+      }
+    ]
+  },
+  "writing": [
+    {
+      "title": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "date": "2014-10-01",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "social": [
+    {
+      "label": "Github",
+      "network": "Github",
+      "url": "https://github.com/smikulic",
+      "user": "smikulic"
+    },
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "https://twitter.com/sinisamikulic",
+      "user": "sinisamikulic"
+    },
+    {
+      "label": "Linkedin",
+      "network": "Linkedin",
+      "url": "linkedin.com/in/sinisamikulic",
+      "user": "sinisamikulic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Erlich Bachman",
+      "flavor": "professional",
+      "quote": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.",
+      "private": false
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Croatian",
+      "fluency": "Native speaker"
+    }
+  ]
+}
