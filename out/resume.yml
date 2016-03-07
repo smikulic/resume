@@ -1,5 +1,5 @@
 basics:
-  name: 'Leih Mikulic'
+  name: 'Sinisa Mikulic'
   label: 'Frontend Developer'
   picture: ""
   email: sinisa.mikulic@gmail.com
@@ -94,13 +94,6 @@ education:
     area: 'Technician for Computing Science'
     startDate: '2007, July'
     endDate: '2003, September'
-publications:
-  -
-    name: 'Video compression for 3d media'
-    publisher: Hooli
-    releaseDate: '2014-10-01'
-    website: 'http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)'
-    summary: 'Innovative middle-out compression algorithm that changes the way we store data.'
 skills:
   -
     name: 'Frontend Development'
@@ -115,6 +108,9 @@ skills:
     keywords:
       - 'Ruby on Rails'
       - Node.js
+      - 'RESTful API'
+      - Nokogiri
+      - Postgree/Mongodb
 languages:
   -
     language: English
@@ -124,11 +120,23 @@ languages:
     fluency: 'Native speaker'
 interests:
   -
-    name: Wildlife
+    name: 'Movies/TV Shows'
     keywords:
-      - Ferrets
-      - Unicorns
+      - 'Spirited Away'
+      - Walle
+      - 'The Wire'
+  -
+    name: Coding
+    keywords:
+      - 'http://smikulic.github.io/catch-the-dragon.js/ - JS game'
+      - 'https://goo.gl/g9Hqu1 - LinkBucket - Chrome plugin for saving your links for later'
+      - 'https://github.com/smikulic/stash - Budget Tracking built with React.js/Node.js/Mongodb/Gulp.js stack'
+      - 'https://smikulic.github.io/booking/ - mini Angular.js project'
 references:
   -
-    name: 'Erlich Bachman'
-    reference: 'It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company.'
+    name: 'Fast Company'
+    reference: 'http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum#3'
+  -
+    name: 'Product Hunt'
+    reference: 'https://www.producthunt.com/@joshsoftorino/collections/products-for-movie-lovers'
+    url: 'https://www.producthunt.com/@joshsoftorino/collections/products-for-movie-lovers'
