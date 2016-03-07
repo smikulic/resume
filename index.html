@@ -1,0 +1,579 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Sinisa Mikulic</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <style type="text/css">
+            @import url(
+            	https://fonts.googleapis.com/css?family=Lato:400,700
+            );
+            body {
+            	background: #fff;
+            	font-family: Lato, sans-serif;
+            	margin: 0 0 80px;
+            }
+            a {
+            	color: #2ecc71;
+            }
+            a:focus,
+            a:hover {
+            	color: #f1c40f;
+            	text-decoration: none;
+            }
+            p {
+            	line-height: 1.5;
+            	margin: 0;
+            }
+            p + p {
+            	margin-top: 10px;
+            }
+            h1,
+            h2,
+            h3,
+            h4 {
+            	margin-top: 0
+            }
+            section {
+            	margin-top: 30px;
+            }
+            li {
+            	line-height: 1.8;
+            	list-style: none;
+            }
+            li:before {
+            	content: "\f052";
+            	float: left;
+            	font: 13px Octicons;
+            	margin-top: 6px;
+            	margin-left: -20px;
+            	opacity: .1;
+            	position: absolute;
+            }
+            blockquote {
+            	border-left: 5px solid #e7e9ec;
+            	font-size: 14px;
+            }
+            em {
+            	color: #95a5a6;
+            	font-weight: normal;
+            	font-style: normal;
+            }
+            h4 span:first-child {
+            	color: #000;
+            	font-weight: bold;
+            }
+            .container {
+            	max-width: 750px;
+            	padding: 0 30px;
+            }
+            .col-sm-6 {
+            	margin-bottom: 10px;
+            }
+            .col-sm-12 h4 {
+            	margin-top: 12px; 
+            }
+            .col-sm-12 + .col-sm-12 {
+            	margin-top: 30px;
+            }
+            #header {
+            	background: #f4f6f6;
+            	padding: 50px 0;
+            	margin-bottom: 30px;
+            }
+            #header h2 {
+            	color: #95a5a6;
+            	font-size: 24px;
+            }
+            #content h3 {
+            	color: #f1c40f;
+            	font-size: 26px;
+            	margin-top: -4px;
+            }
+            #content aside {
+            	text-align: right;
+            	padding-right: 30px;
+            }
+            #profiles .network {
+            	text-transform: capitalize;
+            }
+            #work .position,
+            #volunteer .position {
+            	font-weight: bold;
+            	margin-bottom: 8px;
+            }
+            #education .area {
+            	font-weight: bold;
+            }
+            #education .area:before {
+            	content: "\f0d7";
+            	font: 16px Octicons;
+            	margin-right: 6px;
+            }
+            #education .studyType {
+            	margin-left: 25px;
+            }
+            #awards .summary,
+            #publications .summary {
+            	margin-top: 8px;
+            }
+            #publications .website a:before {
+            	content: attr(href);
+            }
+            
+            @media (min-width: 480px) {
+            	.strike-through {
+            		border-top: 1px solid #f4f6f6;
+            		height: 20px;
+            		margin-top: 12px;
+            		margin-bottom: -2px;
+            		position: relative;
+            	}
+            	.strike-through span,
+            	.strike-through a {
+            		background: #fff;
+            		position: absolute;
+            	}
+            	.strike-through span:first-child {
+            		padding-right: 20px;
+            		margin-top: -12px;
+            	}
+            	.strike-through span + span {
+            		font-size: 14px;
+            		margin-top: -10px;
+            		padding-left: 20px;
+            		right: 0;
+            	}
+            }
+            @media (max-width: 768px) {
+            	.col-sm-6:last-child {
+            		margin-bottom: 0px;
+            	}
+            	#content aside {
+            		margin-bottom: 20px;
+            		padding-right: 0;
+            		text-align: left;
+            	}
+            	#publications .website a:before {
+            		content: "View publication";
+            	}
+            }
+            @media (max-width: 480px) {
+            	h1 {
+            		font-size: 26px;
+            	}
+            	.date {
+            		font-size: 14px;
+            		margin-bottom: 5px;
+            	}
+            	.strike-through span:first-child {
+            		margin-bottom: 7px;
+            	}
+            	.strike-through span {
+            		display: block;
+            	}	
+            	#header {
+            		margin-bottom: 10px;
+            		padding: 40px 0;
+            	}
+            	#actions {
+            		display: none;
+            	}
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-sm-push-3">
+                        	<h1>
+						Sinisa Mikulic
+					</h1>
+
+                        	<h2>
+						Frontend Developer
+					</h2>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="content" class="container">
+            <section id="contact" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Contact</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">	<strong>Email</strong>
+
+                            <div class="email">sinisa.mikulic@gmail.com</div>
+                        </div>
+                        <div class="col-sm-6">	<strong>Phone</strong>
+
+                            <div class="phone">+49 176 816 20991</div>
+                        </div>
+                        <div class="col-sm-6">	<strong>Website</strong>
+
+                            <div class="website">	<a href="http://sinisamikulic.com">http://sinisamikulic.com</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="row">
+                <aside class="col-sm-3">
+                    	<h3>About</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <p>My name is Sinisa Mikulic and I come from Zagreb, Croatia. My experience
+                        as a Rails frontend developer has brought me to Berlin, where I started
+                        with more professional development as a frontend web developer, with main
+                        focus on responsive layouts (HTML/SCSS), JavaScript (ES6), React.js and
+                        Node.js frameworks, along with Ruby on Rails as a backend.</p>
+                </div>
+            </section>
+            <section id="profiles" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Profiles</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">	<strong class="network">
+						Github
+					</strong>
+
+                            <div class="username">
+                                <div class="url">	<a href="https://github.com/smikulic">smikulic</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">	<strong class="network">
+						Twitter
+					</strong>
+
+                            <div class="username">
+                                <div class="url">	<a href="https://twitter.com/sinisamikulic">sinisamikulic</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">	<strong class="network">
+						Linkedin
+					</strong>
+
+                            <div class="username">
+                                <div class="url">	<a href="linkedin.com/in/sinisamikulic">sinisamikulic</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="work" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Work</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>Moviepilot, Inc.</span>
+					<span class="date">
+						2015, November — 
+					</span>
+				</h4>
+
+                            <div class="website pull-right">	<a href="http://moviepilot.com">http://moviepilot.com</a>
+
+                            </div>
+                            <div class="position">Developer</div>
+                            <div class="summary">
+                                <p>Community of 30 million entertainment fans. A place for fans to talk about
+                                    movies!</p>
+                            </div>
+                            	<h4>Highlights</h4>
+
+                            <ul class="highlights">
+                                <li class="bullet">Maintaining user experience for moviepilot.com and it&#x27;s authoring
+                                    platform using Haml/Coffeescript/Ruby on Rails.</li>
+                                <li class="bullet">Managing and optimizing release of experimental Accelerated Mobile Pages
+                                    for SEO and Facebook Instant Articles.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>Searchmetrics GmbH</span>
+					<span class="date">
+						2015, March — 2015, October
+					</span>
+				</h4>
+
+                            <div class="website pull-right">	<a href="http://www.searchmetrics.com/">http://www.searchmetrics.com/</a>
+
+                            </div>
+                            <div class="position">Frontend Developer</div>
+                            <div class="summary">
+                                <p>Searchmetrics delivers enterprise SEO and content marketing analysis,
+                                    recommendations, forecasting and reporting for companies that want potential
+                                    customers to find them faster.</p>
+                            </div>
+                            	<h4>Highlights</h4>
+
+                            <ul class="highlights">
+                                <li class="bullet">Developed user interface with React.js framework for MVP product by using
+                                    Flux architecture and the latest JavaScript ES6.</li>
+                                <li class="bullet">Programmed RESTful web APIs in Node.js.</li>
+                                <li class="bullet">Wrote functional tests with Jest and Jasmine.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>Outfittery GmbH</span>
+					<span class="date">
+						2015, March — 2014, March
+					</span>
+				</h4>
+
+                            <div class="website pull-right">	<a href="https://www.outfittery.de/">https://www.outfittery.de/</a>
+
+                            </div>
+                            <div class="position">Junior Frontend Developer</div>
+                            <div class="summary">
+                                <p>Custom outfits put together by your personal style experts.</p>
+                            </div>
+                            	<h4>Highlights</h4>
+
+                            <ul class="highlights">
+                                <li class="bullet">Implemented new features by using modular structure in JavaScript.</li>
+                                <li
+                                class="bullet">Ensured compatibility across browsers and devices.</li>
+                                    <li class="bullet">Was responsible for maintenance and deployment of CMS.</li>
+                                    <li class="bullet">Lead and mentored front­end team and reviewed code to ensure quality and
+                                        reusability.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>Bib + Tuck, Inc.</span>
+					<span class="date">
+						2014, March — 2013, November
+					</span>
+				</h4>
+
+                            <div class="website pull-right">	<a href="https://www.bibandtuck.com/">https://www.bibandtuck.com/</a>
+
+                            </div>
+                            <div class="position">Rails/Frontend Developer</div>
+                            <div class="summary">
+                                <p>A curated online community of shoppable personal closets.</p>
+                            </div>
+                            	<h4>Highlights</h4>
+
+                            <ul class="highlights">
+                                <li class="bullet">Developed new features with responsive design for the startup application
+                                    <a
+                                    href="https://www.bibandtuck.com/">https://www.bibandtuck.com/</a>based on Ruby on Rails.</li>
+                                <li class="bullet">Optimized existing code written in Haml, SCSS and jQuery.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>Movieo.me</span>
+					<span class="date">
+						2012, February — 
+					</span>
+				</h4>
+
+                            <div class="website pull-right">	<a href="http://www.movieo.me">http://www.movieo.me</a>
+
+                            </div>
+                            <div class="position">Rails/Front­end developer / UX designer / Product Owner</div>
+                            <div class="summary">
+                                <p>A place for discovering movies</p>
+                            </div>
+                            	<h4>Highlights</h4>
+
+                            <ul class="highlights">
+                                <li class="bullet">Developed and wireframed UX and user interface concepts.</li>
+                                <li class="bullet">Programmed layouts in Ruby on Rails and styled them in HTML and CSS.</li>
+                                <li
+                                class="bullet">Was responsible for cross browser and cross device testing.</li>
+                                    <li class="bullet">Analysed use cases and SEO reports(GA and other tracking tools).</li>
+                                    <li
+                                    class="bullet">Product and feature planning.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Education</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>University of Zagreb</span>
+					<span class="date">
+						2013, September — 2007, September
+					</span>
+				</h4>
+
+                            <div class="area">Information Technology</div>
+                            <div class="studyType">Bachelor</div>
+                        </div>
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
+					<span>Technical School Ruđer Bošković</span>
+					<span class="date">
+						2007, July — 2003, September
+					</span>
+				</h4>
+
+                            <div class="area">Technician for Computing Science</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Skills</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="name">
+                                	<h4>Frontend Development</h4>
+
+                            </div>
+                            <ul class="keywords">
+                                <li>Javascript/ES6/Coffeescript</li>
+                                <li>React.js/Flux/Redux</li>
+                                <li>HTML5 (Haml/Slim)</li>
+                                <li>CSS3 (SCSS/Less), Bootstrap</li>
+                                <li>SMACSS/BEM Structure</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="name">
+                                	<h4>Backend Development</h4>
+
+                            </div>
+                            <ul class="keywords">
+                                <li>Ruby on Rails</li>
+                                <li>Node.js</li>
+                                <li>RESTful API</li>
+                                <li>Nokogiri</li>
+                                <li>Postgree/Mongodb</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="languages" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Languages</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="language">	<strong>English</strong>
+
+                            </div>
+                            <div class="fluency">Fluent</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="language">	<strong>Croatian</strong>
+
+                            </div>
+                            <div class="fluency">Native speaker</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="interests" class="row">
+                <aside class="col-sm-3">
+                    	<h3>Interests</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="name">
+                                	<h4>Coding</h4>
+
+                            </div>
+                            <ul class="keywords">
+                                <li><a href="http://smikulic.github.io/catch-the-dragon.js/">http://smikulic.github.io/catch-the-dragon.js/</a> -
+                                    JS game</li>
+                                <li><a href="https://goo.gl/g9Hqu1">https://goo.gl/g9Hqu1</a> - LinkBucket
+                                    - Chrome plugin for saving your links for later</li>
+                                <li><a href="https://github.com/smikulic/stash">https://github.com/smikulic/stash</a> -
+                                    Budget Tracking built with React.js/Node.js/Mongodb/Gulp.js</li>
+                                <li><a href="https://smikulic.github.io/booking/">https://smikulic.github.io/booking/</a> -
+                                    mini Angular.js project</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="name">
+                                	<h4>Movies/TV Shows</h4>
+
+                            </div>
+                            <ul class="keywords">
+                                <li>Spirited Away</li>
+                                <li>Walle</li>
+                                <li>The Wire</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="references" class="row">
+                <aside class="col-sm-3">
+                    	<h3>References</h3>
+
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <blockquote class="reference">
+                                <p><a href="http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum#3">http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum#3</a>
+                                </p>
+                                <p class="name">	<strong>— Fast Company</strong>
+
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col-sm-12">
+                            <blockquote class="reference">
+                                <p><a href="https://www.producthunt.com/@joshsoftorino/collections/products-for-movie-lovers">https://www.producthunt.com/@joshsoftorino/collections/products-for-movie-lovers</a>
+                                </p>
+                                <p class="name">	<strong>— Product Hunt</strong>
+
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+
+</html>
