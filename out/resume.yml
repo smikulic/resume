@@ -27,11 +27,24 @@ basics:
       url: linkedin.com/in/sinisamikulic
 work:
   -
+    company: 'Resmio GmbH'
+    position: 'Senior Frontend Developer'
+    website: 'http://resmio.com'
+    startDate: '2016, April'
+    endDate: ""
+    summary: 'The management and marketing solution for successful restaurants'
+    highlights:
+      - 'Improve the team''s feature release cycle by implementing new build system and tooling in Webpack/Gulp, upgrading agile Git flow and optimizing CircleCi'
+      - 'Design code architecture to shift from Bacbone to Redux/React.js'
+      - 'Develop localization with Airbnb Polyglot.js'
+      - 'Improve junior developer onboarding process using shell script tutorial'
+      - 'Organize the team''s Sprint schedule and future feature planning'
+  -
     company: 'Moviepilot, Inc.'
     position: Developer
     website: 'http://moviepilot.com'
     startDate: '2015, November'
-    endDate: ""
+    endDate: '2016, April'
     summary: 'Community of 30 million entertainment fans. A place for fans to talk about movies!'
     highlights:
       - 'Maintaining user experience for moviepilot.com and it''s authoring platform using Haml/Coffeescript/Ruby on Rails.'
@@ -127,7 +140,7 @@ interests:
     keywords:
       - 'http://smikulic.github.io/catch-the-dragon.js/ - JS game'
       - 'https://goo.gl/g9Hqu1 - LinkBucket - Chrome plugin for saving your links for later'
-      - 'https://github.com/smikulic/stash - Budget Tracking built with React.js/Node.js/Mongodb/Gulp.js'
+      - 'https://github.com/smikulic/stash - Budget Tracking built with React.js/Node.js/Mongodb/Gulp.js, online here: http://www.scroogevault.co/'
       - 'https://smikulic.github.io/booking/ - mini Angular.js project'
   -
     name: 'Movies/TV Shows'
