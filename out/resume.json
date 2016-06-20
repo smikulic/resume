@@ -25,7 +25,7 @@
         "keywords": [],
         "highlights": [
           "Improve the team's feature release cycle by implementing new build system and tooling in Webpack/Gulp, upgrading agile Git flow and optimizing CircleCi",
-          "Design code architecture to shift from Bacbone to Redux/React.js",
+          "Design code architecture to shift from Backbone to Redux/React.js",
           "Develop localization with Airbnb Polyglot.js",
           "Improve junior developer onboarding process using shell script tutorial",
           "Organize the team's Sprint schedule and future feature planning"
@@ -53,7 +53,7 @@
         "url": "http://www.searchmetrics.com/",
         "keywords": [],
         "highlights": [
-          "Developed user interface with React.js framework for MVP product by using Flux architecture and the latest JavaScript ES6.",
+          "Developed user interface with React.js framework for MVP by using Flux architecture and the latest JavaScript ES6.",
           "Programmed RESTful web APIs in Node.js.",
           "Wrote functional tests with Jest and Jasmine."
         ]
@@ -165,7 +165,7 @@
     {
       "label": "Linkedin",
       "network": "Linkedin",
-      "url": "linkedin.com/in/sinisamikulic",
+      "url": "https://linkedin.com/in/sinisamikulic",
       "user": "sinisamikulic"
     }
   ],
