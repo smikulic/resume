@@ -28,7 +28,7 @@
       {
         "network": "Linkedin",
         "username": "sinisamikulic",
-        "url": "linkedin.com/in/sinisamikulic"
+        "url": "https://linkedin.com/in/sinisamikulic"
       }
     ]
   },
@@ -42,7 +42,7 @@
       "summary": "The management and marketing solution for successful restaurants",
       "highlights": [
         "Improve the team's feature release cycle by implementing new build system and tooling in Webpack/Gulp, upgrading agile Git flow and optimizing CircleCi",
-        "Design code architecture to shift from Bacbone to Redux/React.js",
+        "Design code architecture to shift from Backbone to Redux/React.js",
         "Develop localization with Airbnb Polyglot.js",
         "Improve junior developer onboarding process using shell script tutorial",
         "Organize the team's Sprint schedule and future feature planning"
@@ -68,7 +68,7 @@
       "endDate": "2015, October",
       "summary": "Searchmetrics delivers enterprise SEO and content marketing analysis, recommendations, forecasting and reporting for companies that want potential customers to find them faster.",
       "highlights": [
-        "Developed user interface with React.js framework for MVP product by using Flux architecture and the latest JavaScript ES6.",
+        "Developed user interface with React.js framework for MVP by using Flux architecture and the latest JavaScript ES6.",
         "Programmed RESTful web APIs in Node.js.",
         "Wrote functional tests with Jest and Jasmine."
       ]
