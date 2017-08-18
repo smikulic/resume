@@ -7,6 +7,7 @@
         <title>Sinisa Mikulic</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
         <style type="text/css">
             @import url(
               https://fonts.googleapis.com/css?family=Lato:400,700
@@ -18,10 +19,11 @@
             }
             a {
               color: #2ecc71;
+              cursor: pointer;
             }
             a:focus,
             a:hover {
-              color: #f1c40f;
+              color: lightslategrey;
               text-decoration: none;
             }
             p {
@@ -80,16 +82,16 @@
               margin-top: 30px;
             }
             #header {
-              background: #f4f6f6;
+              background: lightslategrey;
               padding: 50px 0;
               margin-bottom: 30px;
             }
             #header h2 {
-              color: #95a5a6;
+              color: lightgray;
               font-size: 24px;
             }
             #content h3 {
-              color: #f1c40f;
+              color: lightslategrey;
               font-size: 26px;
               margin-top: -4px;
             }
@@ -122,6 +124,12 @@
             }
             #publications .website a:before {
               content: attr(href);
+            }
+
+            .profile-picture {
+                width: 130px;
+                height: 130px;
+                border-radius: 65px;
             }
             
             @media (min-width: 480px) {
@@ -190,8 +198,11 @@
         <header id="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-9 col-sm-push-3">
-                          <h1>
+                    <div class="col-sm-3">
+                        <img class="profile-picture" src="./profile.jpg" alt="Sinisa Mikulic">
+                    </div>
+                    <div class="col-sm-9">
+                          <h1 style="color: white;">
             Sinisa Mikulic
           </h1>
 
@@ -221,7 +232,7 @@
                         </div>
                         <div class="col-sm-6">  <strong>Website</strong>
 
-                            <div class="website"> <a href="http://sinisamikulic.com">http://sinisamikulic.com</a>
+                            <div class="website"> <a href="http://smikulic.me">http://smikulic.me</a>
 
                             </div>
                         </div>
@@ -238,7 +249,7 @@
                         as a Rails frontend developer has brought me to Berlin, where I started
                         with more professional development as a frontend web developer, with main
                         focus on responsive layouts (HTML/SCSS), JavaScript (ES6), React.js and
-                        Node.js frameworks, along with Ruby on Rails as a backend.</p>
+                        Node.js frameworks, along with Ruby on Rails on the backend side.</p>
                 </div>
             </section>
             <section id="profiles" class="row">
@@ -289,69 +300,124 @@
                 <div class="col-sm-9">
                     <div class="row">
                         <div class="col-sm-12">
-                              <h4 class="strike-through">
-          <span>Resmio GmbH</span>
-          <span class="date">
-            2016, April — 
-          </span>
-        </h4>
+                            <h4 class="strike-through">
+                                <span>solarisBank AG</span>
+                                <span class="date">
+                                    2016, August — 
+                                </span>
+                            </h4>
+                            <div class="website pull-right">
+                                <a href="https://www.solarisbank.de/">https://www.solarisbank.de/</a>
+                            </div>
+                            <div class="position">Frontend Developer</div>
+                            <div class="summary">
+                                <p>solarisBank enables innovative digital businesses through modular, API-accessible financial services.</p>
+                            </div>
 
-                            <div class="website pull-right">  <a href="http://resmio.com">http://resmio.com</a>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Assist in architecture design for white-label product used by our API partners' customer support using Redux/React/Webpack - This was a successful side project within our team which expanded our company's product portfolio and makes additional revenue.</li>
+                                <li class="bullet">Responsible for building internal bank operations and compliance web interface (managing accounts, transactions etc.) using Mobx/React/Ruby on Rails</li>
+                                <li class="bullet">Write unit and integration (e2e) tests with Rspec/Factory Girl/Jasmine/Enzyme</li>
+                            </ul>
+                        </div>
 
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                    <span>Movieo.me</span>
+                                    <span class="date">
+                                        2012, December — 
+                                    </span>
+                                </h4>
+    
+                                <div class="website pull-right">
+                                    <a href="http://www.movieo.me">http://www.movieo.me</a>
+                                </div>
+                                <div class="position">Co Founder / Product Manager</div>
+                                <div class="summary">
+                                    <p>A place for discovering movies.</p>
+                                    <p>Product has over 100,000 monthly visits and was featured on 
+                                        <a src="https://news.ycombinator.com/item?id=8547351" alt="movieo.me - Hacker News">HackerNews</a>, 
+                                        <a src="https://www.producthunt.com/posts/movieo" alt ="movieo.me - Product Hunt">Product Hunt</a>,
+                                        <a src="https://chrome.google.com/webstore/detail/movieo/pnhkbajohlppmdgphjbjmnohglcddpii?hl=en" alt="movieo.me - chrome web store">
+                                            Chrome Web Store
+                                        </a>,
+                                        and 
+                                        <a src="http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum#3" alt="movieo.me - Fast Company">
+                                            Fast Company
+                                        </a>.
+                                    </p>
+                                </div>
+    
+                                <h4>Highlights</h4>
+                                <ul class="highlights">
+                                    <li class="bullet">Continuously work as a product manager</li>
+                                    <li class="bullet">During initial phases of product growth was in charge of Front-end, building UI and improving UX</li>
+                                    <li class="bullet">Responsible for Google Analytics reporting, user feedback/testing and other team utilities</li>
+                                    <li class="bullet">Build partnerships and relationships with movie advertisement/marketing agencies</li>
+                                    <li class="bullet">Manage social media accounts and advertising campaigns</li>
+                                </ul>
+                            </div>
+
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Resmio GmbH</span>
+                                <span class="date">
+                                    2016, April — 2016, July
+                                </span>
+                            </h4>
+                            <div class="website pull-right">
+                                <a href="http://resmio.com">http://resmio.com</a>
                             </div>
                             <div class="position">Senior Frontend Developer</div>
                             <div class="summary">
-                                <p>The management and marketing solution for successful restaurants</p>
+                                <p>The management and marketing solution for successful restaurants - "OpenTable" for the German market.</p>
                             </div>
-                              <h4>Highlights</h4>
 
+                            <h4>Highlights</h4>
                             <ul class="highlights">
-                                <li class="bullet">Improve the team&#x27;s feature release cycle by implementing new build
-                                    system and tooling in Webpack/Gulp, upgrading agile Git flow and optimizing
-                                    CircleCi</li>
-                                <li class="bullet">Design code architecture to shift from Backbone to Redux/React.js</li>
-                                <li
-                                class="bullet">Develop localization with Airbnb Polyglot.js</li>
-                                    <li class="bullet">Improve junior developer onboarding process using shell script tutorial</li>
-                                    <li
-                                    class="bullet">Organize the team&#x27;s Sprint schedule and future feature planning</li>
+                                <li class="bullet">Improved the team&#x27;s feature release cycle by implementing new build
+                                    system and tooling in Webpack/Gulp</li>
+                                <li class="bullet">Upgraded Git flow and optimized CircleCi</li>
+                                <li class="bullet">Designed code architecture to shift from Backbone to Redux/React.js</li>
+                                <li class="bullet">Developed localization with Airbnb Polyglot.js</li>
+                                <li class="bullet">Improved junior developer onboarding process using shell script tutorial</li>
+                                <li class="bullet">Organized the team&#x27;s Sprint schedule and future feature planning</li>
                             </ul>
                         </div>
                         <div class="col-sm-12">
-                              <h4 class="strike-through">
-          <span>Moviepilot, Inc.</span>
-          <span class="date">
-            2015, November — 2016, April
-          </span>
-        </h4>
+                            <h4 class="strike-through">
+                                <span>Moviepilot, Inc.</span>
+                                <span class="date">
+                                    2015, November — 2016, April
+                                </span>
+                            </h4>
 
-                            <div class="website pull-right">  <a href="http://moviepilot.com">http://moviepilot.com</a>
-
+                            <div class="website pull-right">
+                                <a href="http://moviepilot.com">http://moviepilot.com</a>
                             </div>
                             <div class="position">Developer</div>
                             <div class="summary">
                                 <p>Community of 30 million entertainment fans. A place for fans to talk about
                                     movies!</p>
                             </div>
-                              <h4>Highlights</h4>
 
+                            <h4>Highlights</h4>
                             <ul class="highlights">
-                                <li class="bullet">Maintaining user experience for moviepilot.com and it&#x27;s authoring
-                                    platform using Haml/Coffeescript/Ruby on Rails.</li>
-                                <li class="bullet">Managing and optimizing release of experimental Accelerated Mobile Pages
-                                    for SEO and Facebook Instant Articles.</li>
+                                <li class="bullet">Maintained user experience of moviepilot.com using Haml/Coffeescript</li>
+                                <li class="bullet">Improved features on authoring tool using Ruby on Rails</li>
+                                <li class="bullet">Was responsible for release of Accelerated Mobile Pages of existing articles (AMP)</li>
                             </ul>
                         </div>
                         <div class="col-sm-12">
-                              <h4 class="strike-through">
-          <span>Searchmetrics GmbH</span>
-          <span class="date">
-            2015, March — 2015, October
-          </span>
-        </h4>
-
-                            <div class="website pull-right">  <a href="http://www.searchmetrics.com/">http://www.searchmetrics.com/</a>
-
+                            <h4 class="strike-through">
+                                <span>Searchmetrics GmbH</span>
+                                <span class="date">
+                                    2015, March — 2015, October
+                                </span>
+                            </h4>
+                            <div class="website pull-right">
+                                <a href="http://www.searchmetrics.com/">http://www.searchmetrics.com/</a>
                             </div>
                             <div class="position">Frontend Developer</div>
                             <div class="summary">
@@ -359,51 +425,48 @@
                                     recommendations, forecasting and reporting for companies that want potential
                                     customers to find them faster.</p>
                             </div>
-                              <h4>Highlights</h4>
 
+                            <h4>Highlights</h4>
                             <ul class="highlights">
-                                <li class="bullet">Developed user interface with React.js framework for MVP by using Flux
-                                    architecture and the latest JavaScript ES6.</li>
-                                <li class="bullet">Programmed RESTful web APIs in Node.js.</li>
-                                <li class="bullet">Wrote functional tests with Jest and Jasmine.</li>
+                                <li class="bullet">Built MVP in React.js framework (using Flux approach and latest Javascript ES6)</li>
+                                <li class="bullet">Built REST API services in Node.js</li>
+                                <li class="bullet">Wrote functional tests with Jest/Jasmine</li>
                             </ul>
                         </div>
                         <div class="col-sm-12">
-                              <h4 class="strike-through">
-          <span>Outfittery GmbH</span>
-          <span class="date">
-            2015, March — 2014, March
-          </span>
-        </h4>
+                            <h4 class="strike-through">
+                                <span>Outfittery GmbH</span>
+                                <span class="date">
+                                    2014, March — 2015, March
+                                </span>
+                            </h4>
 
-                            <div class="website pull-right">  <a href="https://www.outfittery.de/">https://www.outfittery.de/</a>
-
+                            <div class="website pull-right">
+                                <a href="https://www.outfittery.de/">https://www.outfittery.de/</a>
                             </div>
                             <div class="position">Junior Frontend Developer</div>
                             <div class="summary">
                                 <p>Custom outfits put together by your personal style experts.</p>
                             </div>
-                              <h4>Highlights</h4>
 
+                            <h4>Highlights</h4>
                             <ul class="highlights">
                                 <li class="bullet">Implemented new features by using modular structure in JavaScript.</li>
-                                <li
-                                class="bullet">Ensured compatibility across browsers and devices.</li>
-                                    <li class="bullet">Was responsible for maintenance and deployment of CMS.</li>
-                                    <li class="bullet">Lead and mentored front­end team and reviewed code to ensure quality and
-                                        reusability.</li>
+                                <li class="bullet">Ensured compatibility across browsers and devices.</li>
+                                <li class="bullet">Was responsible for maintenance and deployment of CMS.</li>
+                                <li class="bullet">Lead and mentored front­end team and reviewed code to ensure quality and reusability.</li>
                             </ul>
                         </div>
                         <div class="col-sm-12">
-                              <h4 class="strike-through">
-          <span>Bib + Tuck, Inc.</span>
-          <span class="date">
-            2014, March — 2013, November
-          </span>
-        </h4>
+                            <h4 class="strike-through">
+                                <span>Bib + Tuck, Inc.</span>
+                                <span class="date">
+                                    2013, November — 2014, March
+                                </span>
+                            </h4>
 
-                            <div class="website pull-right">  <a href="https://www.bibandtuck.com/">https://www.bibandtuck.com/</a>
-
+                            <div class="website pull-right">
+                                <a href="https://www.bibandtuck.com/">https://www.bibandtuck.com/</a>
                             </div>
                             <div class="position">Rails/Frontend Developer</div>
                             <div class="summary">
@@ -412,39 +475,33 @@
                               <h4>Highlights</h4>
 
                             <ul class="highlights">
-                                <li class="bullet">Developed new features with responsive design for the startup application
-                                    <a
-                                    href="https://www.bibandtuck.com/">https://www.bibandtuck.com/</a>based on Ruby on Rails.</li>
-                                <li class="bullet">Optimized existing code written in Haml, SCSS and jQuery.</li>
+                                <li class="bullet">Implemented new responsive design</li>
+                                <li class="bullet">Optimized current code</li>
+                                <li class="bullet">Implemented new features in HAML/SCSS/jQuery/Ruby On Rails technologies</li>
                             </ul>
+                            I started on this project as a part-time freelancer and began working full-time in January 2014.
                         </div>
+
                         <div class="col-sm-12">
-                              <h4 class="strike-through">
-          <span>Movieo.me</span>
-          <span class="date">
-            2012, February — 
-          </span>
-        </h4>
-
-                            <div class="website pull-right">  <a href="http://www.movieo.me">http://www.movieo.me</a>
-
+                                <h4 class="strike-through">
+                                    <span>Cleanpay.me</span>
+                                    <span class="date">
+                                        2013, March — 2015, February
+                                    </span>
+                                </h4>
+    
+                                <div class="position">Co Founder / Lead Front-End Developer</div>
+                                <div class="summary">
+                                    <p>Web app for invoicing and payments focused on the Croatian market.</p>
+                                </div>
+    
+                                <h4>Highlights</h4>
+                                <ul class="highlights">
+                                    <li class="bullet">Product strategy and development</li>
+                                    <li class="bullet">Design and UI implementation using Ruby on Rails/Javascript/HTML/SASS</li>
+                                </ul>
+                                After beginning the Bib and Tuck project, this went into maintenance mode - mostly bi-weekly bug fixes and remote meetings about the product. As it had little success with user growth, it went offline by early 2015.
                             </div>
-                            <div class="position">Rails/Front­end developer / UX designer / Product Owner</div>
-                            <div class="summary">
-                                <p>A place for discovering movies</p>
-                            </div>
-                              <h4>Highlights</h4>
-
-                            <ul class="highlights">
-                                <li class="bullet">Developed and wireframed UX and user interface concepts.</li>
-                                <li class="bullet">Programmed layouts in Ruby on Rails and styled them in HTML and CSS.</li>
-                                <li
-                                class="bullet">Was responsible for cross browser and cross device testing.</li>
-                                    <li class="bullet">Analysed use cases and SEO reports(GA and other tracking tools).</li>
-                                    <li
-                                    class="bullet">Product and feature planning.</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -526,13 +583,13 @@
                             <div class="language">  <strong>English</strong>
 
                             </div>
-                            <div class="fluency">Fluent</div>
+                            <div class="fluency">Native or bilingual proficiency</div>
                         </div>
                         <div class="col-sm-6">
                             <div class="language">  <strong>Croatian</strong>
 
                             </div>
-                            <div class="fluency">Native speaker</div>
+                            <div class="fluency">Native or bilingual proficiency</div>
                         </div>
                     </div>
                 </div>
@@ -555,9 +612,13 @@
                                 <li><a href="https://goo.gl/g9Hqu1">https://goo.gl/g9Hqu1</a> - LinkBucket
                                     - Chrome plugin for saving your links for later</li>
                                 <li><a href="https://github.com/smikulic/stash">https://github.com/smikulic/stash</a> -
-                                    Budget Tracking built with React.js/Node.js/Mongodb/Gulp.js, online here:
-                                    <a
-                                    href="http://www.scroogevault.co/">http://www.scroogevault.co/</a>
+                                    Budget Tracking built with React.js/Node.js/Mongodb/Gulp.js
+                                </li>
+                                <li><a href="https://github.com/smikulic/stash_api">https://github.com/smikulic/stash_api</a> -
+                                    Saving Goals app - Rails 5 API layer
+                                </li>
+                                <li><a href="https://github.com/smikulic/stash_client">https://github.com/smikulic/stash_client</a> -
+                                    Saving Goals app - Mobx/React/Webpack client
                                 </li>
                                 <li><a href="https://smikulic.github.io/booking/">https://smikulic.github.io/booking/</a> -
                                     mini Angular.js project</li>
